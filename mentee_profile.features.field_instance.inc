@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * mentor_profile.features.field_instance.inc
+ * mentee_profile.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function mentor_profile_field_default_field_instances() {
+function mentee_profile_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_country'
-  $field_instances['profile2-mentor-field_mentor_country'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_country'
+  $field_instances['profile2-mentee-field_mentee_country'] = array(
+    'bundle' => 'mentee',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -26,7 +26,7 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_country',
+    'field_name' => 'field_mentee_country',
     'label' => 'Country of Residence',
     'required' => FALSE,
     'settings' => array(
@@ -40,9 +40,9 @@ function mentor_profile_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_fname'
-  $field_instances['profile2-mentor-field_mentor_fname'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_fname'
+  $field_instances['profile2-mentee-field_mentee_fname'] = array(
+    'bundle' => 'mentee',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -56,7 +56,7 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_fname',
+    'field_name' => 'field_mentee_fname',
     'label' => 'First Name',
     'required' => 0,
     'settings' => array(
@@ -74,9 +74,9 @@ function mentor_profile_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_industry'
-  $field_instances['profile2-mentor-field_mentor_industry'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_industry'
+  $field_instances['profile2-mentee-field_mentee_industry'] = array(
+    'bundle' => 'mentee',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => 'The current industry you work in or have experience in',
@@ -90,7 +90,7 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_industry',
+    'field_name' => 'field_mentee_industry',
     'label' => 'Career Industry',
     'required' => 0,
     'settings' => array(
@@ -105,9 +105,9 @@ function mentor_profile_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_job_title'
-  $field_instances['profile2-mentor-field_mentor_job_title'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_job_title'
+  $field_instances['profile2-mentee-field_mentee_job_title'] = array(
+    'bundle' => 'mentee',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -121,7 +121,7 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_job_title',
+    'field_name' => 'field_mentee_job_title',
     'label' => 'Job Title',
     'required' => 0,
     'settings' => array(
@@ -139,9 +139,9 @@ function mentor_profile_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_lname'
-  $field_instances['profile2-mentor-field_mentor_lname'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_lname'
+  $field_instances['profile2-mentee-field_mentee_lname'] = array(
+    'bundle' => 'mentee',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -155,7 +155,7 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_lname',
+    'field_name' => 'field_mentee_lname',
     'label' => 'Last Name',
     'required' => 0,
     'settings' => array(
@@ -173,9 +173,9 @@ function mentor_profile_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_occupation'
-  $field_instances['profile2-mentor-field_mentor_occupation'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_occupation'
+  $field_instances['profile2-mentee-field_mentee_occupation'] = array(
+    'bundle' => 'mentee',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -189,7 +189,7 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_occupation',
+    'field_name' => 'field_mentee_occupation',
     'label' => 'Occupation',
     'required' => 0,
     'settings' => array(
@@ -207,9 +207,9 @@ function mentor_profile_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_picture'
-  $field_instances['profile2-mentor-field_mentor_picture'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_picture'
+  $field_instances['profile2-mentee-field_mentee_picture'] = array(
+    'bundle' => 'mentee',
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -225,13 +225,13 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_picture',
+    'field_name' => 'field_mentee_picture',
     'label' => 'Picture',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'file_directory' => 'profile-images/mentor',
+      'file_directory' => 'profile-images/mentee',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
@@ -251,9 +251,9 @@ function mentor_profile_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'profile2-mentor-field_mentor_pref_contact'
-  $field_instances['profile2-mentor-field_mentor_pref_contact'] = array(
-    'bundle' => 'mentor',
+  // Exported field_instance: 'profile2-mentee-field_mentee_pref_contact'
+  $field_instances['profile2-mentee-field_mentee_pref_contact'] = array(
+    'bundle' => 'mentee',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -267,7 +267,7 @@ function mentor_profile_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'profile2',
-    'field_name' => 'field_mentor_pref_contact',
+    'field_name' => 'field_mentee_pref_contact',
     'label' => 'Preferred Method of contact',
     'required' => 0,
     'settings' => array(

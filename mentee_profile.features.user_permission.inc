@@ -1,39 +1,39 @@
 <?php
 /**
  * @file
- * mentor_profile.features.user_permission.inc
+ * mentee_profile.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function mentor_profile_user_default_permissions() {
+function mentee_profile_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: 'edit any mentor profile'.
-  $permissions['edit any mentor profile'] = array(
-    'name' => 'edit any mentor profile',
+  // Exported permission: 'edit any mentee profile'.
+  $permissions['edit any mentee profile'] = array(
+    'name' => 'edit any mentee profile',
     'roles' => array(),
     'module' => 'profile2',
   );
 
-  // Exported permission: 'edit own mentor profile'.
-  $permissions['edit own mentor profile'] = array(
-    'name' => 'edit own mentor profile',
+  // Exported permission: 'edit own mentee profile'.
+  $permissions['edit own mentee profile'] = array(
+    'name' => 'edit own mentee profile',
     'roles' => array(),
     'module' => 'profile2',
   );
 
-  // Exported permission: 'view any mentor profile'.
-  $permissions['view any mentor profile'] = array(
-    'name' => 'view any mentor profile',
+  // Exported permission: 'view any mentee profile'.
+  $permissions['view any mentee profile'] = array(
+    'name' => 'view any mentee profile',
     'roles' => array(),
     'module' => 'profile2',
   );
 
-  // Exported permission: 'view own mentor profile'.
-  $permissions['view own mentor profile'] = array(
-    'name' => 'view own mentor profile',
+  // Exported permission: 'view own mentee profile'.
+  $permissions['view own mentee profile'] = array(
+    'name' => 'view own mentee profile',
     'roles' => array(),
     'module' => 'profile2',
   );
